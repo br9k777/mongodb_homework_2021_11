@@ -25,9 +25,9 @@ Project ID
 1. 4.4.10 на порту 30101 установлен в системе
 1. 5.0.4 на порту 30201 поднят через докер
 
-mongo client
-mongosh 34.88.131.236:30101 -u root -p 'otus$123' --authenticationDatabase admin
-mongosh 34.88.131.236:30201 -u root_docker -p 'otus$123' --authenticationDatabase admin
+доступ через mongo client:
+> mongosh 34.88.131.236:30101 -u root -p 'otus$123' --authenticationDatabase admin
+> mongosh 34.88.131.236:30201 -u root_docker -p 'otus$123' --authenticationDatabase admin
 
 автозапкуск сделан через bash скрипт
 
